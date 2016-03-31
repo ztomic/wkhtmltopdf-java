@@ -12,7 +12,7 @@ Requirements
 
 Usage
 ------------
-```
+```java
 WkHtmlToPdf pdf = new WkHtmlToPdf();
 
 pdf.addSources(Source.from("<html><head><meta charset=\"utf-8\"></head><h1>Müller</h1></html>", "UTF-8"));
