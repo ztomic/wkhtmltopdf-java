@@ -32,3 +32,25 @@ pdf.addArguments(Option.NoFooterLine.NoFooterLine);
 // Save the PDF
 pdf.save(Paths.get("output.pdf"));
 ```
+
+Maven dependency
+------------
+```xml
+<dependencies>
+	<dependency>
+		<groupId>com.ztomic</groupId>
+		<artifactId>wkhtmltopdf-java</artifactId>
+		<version>0.0.1</version>
+	</dependency>
+</dependencies>
+<repositories>
+	<repository>
+		<id>bintray</id>
+		<name>bintray</name>
+		<url>http://jcenter.bintray.com/</url>
+		<snapshots>
+			<enabled>false</enabled>
+		</snapshots>
+	</repository>
+</repositories>
+```
